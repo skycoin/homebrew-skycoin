@@ -9,7 +9,7 @@ Homebrew formulae for installing Skycoin projects and dependencies on OS X.
 Use the following commands to Tap the Homebrew repository
 
 ```sh
-brew tap BigOokie/skycoin-cx-macos
+brew tap simelo/homebrew-skycoin
 ```
 
 Then install any of [available Formulae](https://github.com/simelo/homebrew-skycoin/tree/master/Formula).
