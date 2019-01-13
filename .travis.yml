@@ -33,12 +33,6 @@ script:
   - brew audit $(brew --repo $TRAVIS_REPO_SLUG)/Formula/*.rb
   - brew style $(brew --repo $TRAVIS_REPO_SLUG)/Formula/*.rb
 
-  # Install the toolchain
-  - brew install px4-sim
-  - sudo -H pip install --upgrade --force-reinstall numpy
-  - sudo -H pip install pyserial empy toml pandas jinja2 pyyaml
-
-  # Compile PX4 firmware
-  - git clone -b master https://github.com/PX4/Firmware.git ~/Firmware
-  - cd ~/Firmware
-  - DONT_RUN=1 make posix_sitl_default gazebo
+  # Install packages
+  - brew install gcc-arm-none-eabi-63
+  - brew install skycoin-cx
