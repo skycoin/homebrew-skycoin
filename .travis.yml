@@ -36,3 +36,4 @@ script:
   # Install packages
   - brew install gcc-arm-none-eabi-63
   - brew install skycoin-cx
+  - brew install objconv
