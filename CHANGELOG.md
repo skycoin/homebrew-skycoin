@@ -10,7 +10,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 
 - Formula for installing [CX](https://github.com/skycoin/cx)
-- Formula for installing `gcc-arm-none-eabi` needed for [Skycoin hardware wallet](https://github.com/skycoin/hardware-wallet)
+- Formula for installing `gcc-arm-none-eabi` needed for
+  * [Skycoin hardware wallet](https://github.com/skycoin/hardware-wallet)
+  * [Skycoin Ledger Nano S](https://github.com/skycoin/ledger-nano)
 - Formula for installing agner's [objconv](https://www.agner.org/optimize/#objconv) needed for Travis builds of [Skycoin hardware wallet](https://github.com/skycoin/hardware-wallet)
 
 ### Fixed
