@@ -13,6 +13,7 @@ assignees: ''
 - Type: bztar | sdist | git
 - Download URL: 
 - Version(s):
+- Compiler info: for sdist only
 
 **Rationale**
 Explain the reasons for including this project.
