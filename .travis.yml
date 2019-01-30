@@ -34,6 +34,7 @@ script:
   - brew style $(brew --repo $TRAVIS_REPO_SLUG)/Formula/*.rb
 
   # Install packages
+  - brew install gcc-arm-none-eabi-53
   - brew install gcc-arm-none-eabi-63
   - brew install skycoin-cx
   - brew install objconv
