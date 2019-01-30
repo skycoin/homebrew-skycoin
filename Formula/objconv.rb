@@ -1,4 +1,3 @@
-
 # Initial import from https://github.com/hawkw/homebrew-grub/blob/54010f6/Formula/objconv.rb
 
 class Objconv < Formula
