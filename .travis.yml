@@ -35,6 +35,10 @@ script:
 
   # Install packages
   - brew install gcc-arm-none-eabi-53
+  - brew unlink gcc-arm-none-eabi-53
   - brew install gcc-arm-none-eabi-63
+  - brew unlink gcc-arm-none-eabi-63
   - brew install skycoin-cx
+  - brew unlink skycoin-cx
   - brew install objconv
+  - brew unlink objconv
