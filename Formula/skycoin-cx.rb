@@ -23,7 +23,7 @@
 class SkycoinCx < Formula
   desc "Skycoin CX is a general programming language based on affordances"
   homepage "https://github.com/skycoin/cx"
-  url https://github.com/skycoin/cx/releases/download/v0.6.0/cx-0.6.0-bin-macos-x64.zip
+  url "https://github.com/skycoin/cx/releases/download/v0.6.0/cx-0.6.0-bin-macos-x64.zip"
   version "0.6.0"
   sha256 "7834ef88116e41e376061eb9fe6c64640dbe8c8ec34522482ef786b9a1eaebb4"
 
