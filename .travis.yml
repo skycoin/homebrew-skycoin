@@ -95,14 +95,6 @@ script:
     brew unlink clang-llvm-600 ;
     fi
   - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
-    brew install clang-llvm-601 ;
-    brew unlink clang-llvm-601 ;
-    fi
-  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
     brew install clang-llvm-700 ;
     brew unlink clang-llvm-700 ;
-    fi
-  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
-    brew install clang-llvm-701 ;
-    brew unlink clang-llvm-701 ;
     fi
