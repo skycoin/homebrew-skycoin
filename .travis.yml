@@ -32,13 +32,69 @@ script:
   # Homebrew style checks
   - brew audit $(brew --repo $TRAVIS_REPO_SLUG)/Formula/*.rb
   - brew style $(brew --repo $TRAVIS_REPO_SLUG)/Formula/*.rb
-
-  # Install packages
+  # Install supported packages
+  # ---- gcc-arm-none-eabi
   - brew install gcc-arm-none-eabi-53
   - brew unlink gcc-arm-none-eabi-53
   - brew install gcc-arm-none-eabi-63
   - brew unlink gcc-arm-none-eabi-63
+  # ---- clang-llvm
+  - brew install clang-llvm-400
+  - brew unlink clang-llvm-400
+  # ---- skycoin-cx
   - brew install skycoin-cx
   - brew unlink skycoin-cx
+  # ---- objconv
   - brew install objconv
   - brew unlink objconv
+  # Install extra packages
+  # ---- gcc-arm-none-eabi
+  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+    brew install gcc-arm-none-eabi-47 ;
+    brew unlink gcc-arm-none-eabi-47 ;
+    fi
+  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+    brew install gcc-arm-none-eabi-48 ;
+    brew unlink gcc-arm-none-eabi-48 ;
+    fi
+  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+    brew install gcc-arm-none-eabi-49 ;
+    brew unlink gcc-arm-none-eabi-49 ;
+    fi
+  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+    brew install gcc-arm-none-eabi-54 ;
+    brew unlink gcc-arm-none-eabi-54 ;
+    fi
+  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+    brew install gcc-arm-none-eabi-62 ;
+    brew unlink gcc-arm-none-eabi-62 ;
+    fi
+  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+    brew install gcc-arm-none-eabi-74 ;
+    brew unlink gcc-arm-none-eabi-74 ;
+    fi
+  # ---- clang-llvm
+  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+    brew install clang-llvm-401 ;
+    brew unlink clang-llvm-401 ;
+    fi
+  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+    brew install clang-llvm-500 ;
+    brew unlink clang-llvm-500 ;
+    fi
+  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+    brew install clang-llvm-501 ;
+    brew unlink clang-llvm-501 ;
+    fi
+  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+    brew install clang-llvm-502 ;
+    brew unlink clang-llvm-502 ;
+    fi
+  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+    brew install clang-llvm-600 ;
+    brew unlink clang-llvm-600 ;
+    fi
+  - if [[ "$TRAVIS_PULL_REQUEST" != "false" ]]; then
+    brew install clang-llvm-700 ;
+    brew unlink clang-llvm-700 ;
+    fi
