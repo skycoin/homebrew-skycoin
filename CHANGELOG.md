@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Updates 2019/04
 
 ### Added
+- Formula for installing [Skycoin Command Line Tools (CLI)](https://github.com/skycoin/skycoin/tree/master/cmd/cli) v0.25.1
 - Update CX formula for release [v0.6.2](https://github.com/skycoin/cx/releases/tag/v0.6.2)
 
 ### Fixed
