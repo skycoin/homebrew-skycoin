@@ -23,9 +23,9 @@
 class SkycoinCli < Formula
   desc "Skycoin Command Line Interface (CLI)"
   homepage "https://github.com/skycoin/skycoin/tree/master/cmd/cli"
-  url "https://downloads.skycoin.net/wallet/skycoin-0.25.1-cli-osx-darwin-x64.zip"
-  version "0.25.1"
-  sha256 "449d8fc4527feb4f61e5013791b7098df702c2284a119f79ecda94042fc366c0"
+  url "https://downloads.skycoin.net/wallet/skycoin-0.26.0-cli-osx-darwin-x64.zip"
+  version "0.26.0"
+  sha256 "7e9932d9b8b6672be7d045f43930fca5e4103055f58fff519c0bcea7b5dfed47"
 
   bottle :unneeded
 
