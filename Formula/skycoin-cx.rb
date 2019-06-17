@@ -30,6 +30,6 @@ class SkycoinCx < Formula
   bottle :unneeded
 
   def install
-    bin.install "Users/amherag/go/bin/cx"
+    bin.install "cx"
   end
 end
