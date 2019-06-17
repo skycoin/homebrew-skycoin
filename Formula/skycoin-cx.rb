@@ -30,6 +30,8 @@ class SkycoinCx < Formula
   bottle :unneeded
 
   def install
+    ## v0.7.0 has a different folder structure in the zip package.
+    ## This command had to be updated to accomodate
     bin.install "amherag/go/bin/cx"
   end
 end
