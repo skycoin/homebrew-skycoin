@@ -44,6 +44,9 @@ script:
   # ---- skycoin-cx
   - brew install skycoin-cx
   - brew unlink skycoin-cx
+   # ---- skycoin-cli
+  - brew install skycoin-cli
+  - brew unlink skycoin-cli
   # ---- objconv
   - brew install objconv
   - brew unlink objconv
