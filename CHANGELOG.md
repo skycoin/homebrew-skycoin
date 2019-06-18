@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 - Update Skycoin-cli formula for release [v0.26.0](https://github.com/skycoin/skycoin/releases/tag/v0.26.0)
+- Update Skycoin-cx formular for release [v0.7.0](https://github.com/skycoin/cx/releases/tag/v0.7.0)
 
 ### Fixed
 
