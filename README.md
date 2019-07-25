@@ -1,6 +1,6 @@
 homebrew-skycoin
 ============
-[![Build Status](https://travis-ci.org/skycoin/homebrew-skycoin.svg?branch=master)](https://travis-ci.org/skycoin/homebrew-skycoin)
+[![Build Status](https://travis-ci.com/skycoin/homebrew-skycoin.svg?branch=master)](https://travis-ci.com/skycoin/homebrew-skycoin)
 
 Homebrew formulae for installing Skycoin projects and dependencies on OS X.
 
