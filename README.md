@@ -47,6 +47,7 @@ brew tap bigookie/homebrew-skycoin
 ```bash
 brew install brew install https://raw.githubusercontent.com/BigOokie/homebrew-skycoin/cx-v0.7/Formula/skycoin-cx.rb
 ```
+10. To clean-up, just follow the reverse process to uninstall your development formula and untap your development repo.
 
 [Go to Tests Completed](#tests-completed)
 
