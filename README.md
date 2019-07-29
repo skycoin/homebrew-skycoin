@@ -43,9 +43,9 @@ brew untap skycoin/skycoin
 ```bash
 brew tap bigookie/homebrew-skycoin
 ```
-9. Install `skycoin-cx` from your test repo
+9. Install `skycoin-cx` from your test repo branch. You will need to locate the raw URL for the required fomula file in GitHub
 ```bash
-brew install skycoin-cx
+brew install brew install https://raw.githubusercontent.com/BigOokie/homebrew-skycoin/cx-v0.7/Formula/skycoin-cx.rb
 ```
 
 [Go to Tests Completed](#tests-completed)
