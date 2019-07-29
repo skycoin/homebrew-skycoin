@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 
 ### Changed
+- Updated the processes that can be used for testing Homebrew formula in README.md
 
 ### Removed
 
