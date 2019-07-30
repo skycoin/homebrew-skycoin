@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## Updates 2019/07
+
+### Added
+- Update Skycoin-cx formular for release [v0.7.1](https://github.com/skycoin/cx/releases/tag/v0.7.1)
+
+### Fixed
+
+### Changed
+- Updated the processes that can be used for testing Homebrew formula in README.md
+
+### Removed
+
 ## Updates 2019/06
 
 ### Added
